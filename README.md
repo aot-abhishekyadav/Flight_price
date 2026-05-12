@@ -16,15 +16,15 @@ The dataset was cleaned, transformed, and processed using Feature Engineering te
 
 # Dataset Information
 The project uses two datasets:
-1. Training Dataset
+1. Training Dataset :
 . Contains flight details along with ticket prices.
 . Used to train the model.
 
-2.Testing Dataset
+2. Testing Dataset :
 . Contains flight details without prices.
 . Used for prediction/testing.
 
-# Features in Dataset
+# Features in Dataset 
 . Airline
 . Date_of_Journey
 . Source
@@ -39,35 +39,35 @@ The project uses two datasets:
 
 # Data Preprocessing & Feature Engineering
 Several preprocessing steps were performed to clean and prepare the dataset:
-1. Date Processing
+1. Date Processing : 
 . Extracted:
    . Journey Date
    . Journey Month
    . Journey Year
 
-2. Arrival Time Processing
+2. Arrival Time Processing :
 . Extracted:
    . Arrival Hour
    . Arrival Minute
 
-3. Departure Time Processing
+3. Departure Time Processing : 
 . Extracted:
    . Departure Hour
    . Departure Minute
 
-4. Duration Processing
+4. Duration Processing : 
 . Converted flight duration into:
     . Duration Hours
     . Duration Minutes
     . Total Duration in Minutes
 
-5. Handling Missing Values
+5. Handling Missing Values: 
 . Filled missing values in:
     . Total_Stops
     . Duration_Minutes
     . Removed invalid rows
 
-6. Categorical Encoding
+6. Categorical Encoding : 
 . Used Label Encoding to convert categorical columns into numerical format:
    . Airline
    . Source
